@@ -1,0 +1,33 @@
+/* Gradient background for the navbar */
+.navbar-gradient {
+    background: linear-gradient(45deg, #ff6b6b, #b69353, #6bffb3 );
+    background-size: 300% 300%;
+    animation: gradientAnimation 10s ease infinite;
+  }
+  
+  /* Animation for gradient background */
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  /* Gradient button */
+  .gradient-button {
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .gradient-button:hover {
+    background: linear-gradient(to right, #24c6dc, #514a9d);
+    transform: scale(1.05);
+  }
+  
+  /* Change font size */
+  .text-lg {
+    font-size: 1.2rem; /* 20px */
+  }
+  
